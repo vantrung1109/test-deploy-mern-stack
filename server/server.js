@@ -29,7 +29,7 @@ app.use(passport.session());
 
 app.use(
   cors({
-    origin: "https://vercel.com/vantrung1109s-projects",
+    origin: "https://test-deploy-mern-stack.vercel.app",
     method: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
