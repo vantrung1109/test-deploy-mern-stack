@@ -29,7 +29,7 @@ app.use(passport.session());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://vercel.com/vantrung1109s-projects",
     method: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
